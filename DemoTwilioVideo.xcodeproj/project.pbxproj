@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		154E163227C48CD70021F1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E163127C48CD70021F1C1 /* AppDelegate.swift */; };
+		154E163B27C48CDA0021F1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154E163A27C48CDA0021F1C1 /* Assets.xcassets */; };
+		154E163E27C48CDA0021F1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154E163C27C48CDA0021F1C1 /* LaunchScreen.storyboard */; };
+		154E164727C48D420021F1C1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154E164527C48D420021F1C1 /* HomeViewController.swift */; };
+		154E164827C48D420021F1C1 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 154E164627C48D420021F1C1 /* HomeViewController.xib */; };
+		156809E227C4F6ED007C59E6 /* TwilioVideoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156809E127C4F6ED007C59E6 /* TwilioVideoManager.swift */; };
+		156809E727C4F754007C59E6 /* VideoCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156809E527C4F754007C59E6 /* VideoCallViewController.swift */; };
+		156809E827C4F754007C59E6 /* VideoCallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156809E627C4F754007C59E6 /* VideoCallViewController.xib */; };
+		15E8D53427C7409000ADF018 /* BackupCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E8D53327C7409000ADF018 /* BackupCode.swift */; };
+		F31C60C161D0C918A7961936 /* Pods_DemoTwilioVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87560A04248B1C44C1CF686 /* Pods_DemoTwilioVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		154E162E27C48CD70021F1C1 /* DemoTwilioVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTwilioVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		154E163127C48CD70021F1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		154E163A27C48CDA0021F1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		154E163D27C48CDA0021F1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		154E163F27C48CDA0021F1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154E164527C48D420021F1C1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		154E164627C48D420021F1C1 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		156809E127C4F6ED007C59E6 /* TwilioVideoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioVideoManager.swift; sourceTree = "<group>"; };
+		156809E527C4F754007C59E6 /* VideoCallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewController.swift; sourceTree = "<group>"; };
+		156809E627C4F754007C59E6 /* VideoCallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCallViewController.xib; sourceTree = "<group>"; };
+		15E8D53327C7409000ADF018 /* BackupCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCode.swift; sourceTree = "<group>"; };
+		377F240D40EAA2BBD215E079 /* Pods-DemoTwilioVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTwilioVideo.debug.xcconfig"; path = "Target Support Files/Pods-DemoTwilioVideo/Pods-DemoTwilioVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		60537DAB72B43B339DB369A2 /* Pods-DemoTwilioVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTwilioVideo.release.xcconfig"; path = "Target Support Files/Pods-DemoTwilioVideo/Pods-DemoTwilioVideo.release.xcconfig"; sourceTree = "<group>"; };
+		B87560A04248B1C44C1CF686 /* Pods_DemoTwilioVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTwilioVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		154E162B27C48CD70021F1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31C60C161D0C918A7961936 /* Pods_DemoTwilioVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		154E162527C48CD70021F1C1 = {
+			isa = PBXGroup;
+			children = (
+				154E163027C48CD70021F1C1 /* DemoTwilioVideo */,
+				154E162F27C48CD70021F1C1 /* Products */,
+				7DB31E64613B8DCF41C5427A /* Pods */,
+				76B60C7B335025E47CFC76D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		154E162F27C48CD70021F1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				154E162E27C48CD70021F1C1 /* DemoTwilioVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		154E163027C48CD70021F1C1 /* DemoTwilioVideo */ = {
+			isa = PBXGroup;
+			children = (
+				154E163127C48CD70021F1C1 /* AppDelegate.swift */,
+				156809E127C4F6ED007C59E6 /* TwilioVideoManager.swift */,
+				156809E327C4F72B007C59E6 /* 1. Preview camera */,
+				156809E427C4F733007C59E6 /* 2. Video call */,
+				154E163A27C48CDA0021F1C1 /* Assets.xcassets */,
+				154E163C27C48CDA0021F1C1 /* LaunchScreen.storyboard */,
+				154E163F27C48CDA0021F1C1 /* Info.plist */,
+				154E164527C48D420021F1C1 /* HomeViewController.swift */,
+				154E164627C48D420021F1C1 /* HomeViewController.xib */,
+			);
+			path = DemoTwilioVideo;
+			sourceTree = "<group>";
+		};
+		156809E327C4F72B007C59E6 /* 1. Preview camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1. Preview camera";
+			sourceTree = "<group>";
+		};
+		156809E427C4F733007C59E6 /* 2. Video call */ = {
+			isa = PBXGroup;
+			children = (
+				156809E527C4F754007C59E6 /* VideoCallViewController.swift */,
+				156809E627C4F754007C59E6 /* VideoCallViewController.xib */,
+				15E8D53327C7409000ADF018 /* BackupCode.swift */,
+			);
+			path = "2. Video call";
+			sourceTree = "<group>";
+		};
+		76B60C7B335025E47CFC76D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B87560A04248B1C44C1CF686 /* Pods_DemoTwilioVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB31E64613B8DCF41C5427A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				377F240D40EAA2BBD215E079 /* Pods-DemoTwilioVideo.debug.xcconfig */,
+				60537DAB72B43B339DB369A2 /* Pods-DemoTwilioVideo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		154E162D27C48CD70021F1C1 /* DemoTwilioVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 154E164227C48CDA0021F1C1 /* Build configuration list for PBXNativeTarget "DemoTwilioVideo" */;
+			buildPhases = (
+				E5BF61EECF6E2C22F7656B95 /* [CP] Check Pods Manifest.lock */,
+				154E162A27C48CD70021F1C1 /* Sources */,
+				154E162B27C48CD70021F1C1 /* Frameworks */,
+				154E162C27C48CD70021F1C1 /* Resources */,
+				9DDA450AC3570D88C9E24DD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoTwilioVideo;
+			productName = DemoTwilioVideo;
+			productReference = 154E162E27C48CD70021F1C1 /* DemoTwilioVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		154E162627C48CD70021F1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					154E162D27C48CD70021F1C1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 154E162927C48CD70021F1C1 /* Build configuration list for PBXProject "DemoTwilioVideo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 154E162527C48CD70021F1C1;
+			productRefGroup = 154E162F27C48CD70021F1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				154E162D27C48CD70021F1C1 /* DemoTwilioVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		154E162C27C48CD70021F1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E163E27C48CDA0021F1C1 /* LaunchScreen.storyboard in Resources */,
+				154E163B27C48CDA0021F1C1 /* Assets.xcassets in Resources */,
+				156809E827C4F754007C59E6 /* VideoCallViewController.xib in Resources */,
+				154E164827C48D420021F1C1 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DDA450AC3570D88C9E24DD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoTwilioVideo/Pods-DemoTwilioVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoTwilioVideo/Pods-DemoTwilioVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoTwilioVideo/Pods-DemoTwilioVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BF61EECF6E2C22F7656B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoTwilioVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		154E162A27C48CD70021F1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154E163227C48CD70021F1C1 /* AppDelegate.swift in Sources */,
+				15E8D53427C7409000ADF018 /* BackupCode.swift in Sources */,
+				156809E227C4F6ED007C59E6 /* TwilioVideoManager.swift in Sources */,
+				156809E727C4F754007C59E6 /* VideoCallViewController.swift in Sources */,
+				154E164727C48D420021F1C1 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		154E163C27C48CDA0021F1C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				154E163D27C48CDA0021F1C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		154E164027C48CDA0021F1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		154E164127C48CDA0021F1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		154E164327C48CDA0021F1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 377F240D40EAA2BBD215E079 /* Pods-DemoTwilioVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MDVP4938PX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoTwilioVideo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bumios.DemoTwilioVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		154E164427C48CDA0021F1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60537DAB72B43B339DB369A2 /* Pods-DemoTwilioVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MDVP4938PX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoTwilioVideo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bumios.DemoTwilioVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		154E162927C48CD70021F1C1 /* Build configuration list for PBXProject "DemoTwilioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E164027C48CDA0021F1C1 /* Debug */,
+				154E164127C48CDA0021F1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		154E164227C48CDA0021F1C1 /* Build configuration list for PBXNativeTarget "DemoTwilioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				154E164327C48CDA0021F1C1 /* Debug */,
+				154E164427C48CDA0021F1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 154E162627C48CD70021F1C1 /* Project object */;
+}

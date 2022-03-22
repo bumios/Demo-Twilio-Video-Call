@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This application want to access local network from your device to run video call feature</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This application want to access microphone from your device to run video call feature</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This application want to access camera from your device to run video call feature</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
+</dict>
+</plist>
